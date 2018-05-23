@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEditor;
 using System.IO;
 
-
+/// <summary>
+/// 
+/// </summary>
 public class FileCombineEditor : EditorWindow {
 
 	public static string filesPath = "testFile";
