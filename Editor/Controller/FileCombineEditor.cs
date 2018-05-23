@@ -4,13 +4,12 @@ using UnityEngine;
 using UnityEditor;
 using System.IO;
 
+
 public class FileCombineEditor : EditorWindow {
 
 	public static string filesPath = "testFile";
-
 	public static string filesName1 = "files1";             
 	public static string filesName2 = "files2";
-
     public static string outFilePath = "outFiles";
 	public static string outFileName = "files";
 
@@ -18,7 +17,6 @@ public class FileCombineEditor : EditorWindow {
 	public static Object fileObj2 = null;
 
 	public static bool isChangeBaseValue = true;
-
 
 	private static Dictionary<string, string> filesDic1;
 
